@@ -53,8 +53,8 @@ function tanggal_sekarang($time=FALSE)
 			eventLimit: true, // allow "more" link when too many events
 			events: [
 <?php
-$link = mysqli_connect("localhost", "root", "", "jadwalujian");
-$sql = "SELECT * FROM jadwalujian where status='2'";
+$link = mysqli_connect("localhost", "root", "", "jadwalperpus");
+$sql = "SELECT * FROM jadwalperpus where status='2'";
 
 
 $result = mysqli_query($link, $sql);
